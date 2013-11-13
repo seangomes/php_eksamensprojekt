@@ -1,0 +1,198 @@
+@import "reset.css";
+
+body
+{
+	background: #DCDDD8;
+	font-family: trebuchet ms;
+	width: 100%;
+}
+
+.topnavigationlink
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+#logo
+{
+	font-family: comic sans ms;
+}
+
+.topnavigationlink:hover
+{
+	text-decoration: underline;
+}
+
+/* Clear fix */
+.clearfix:before, .clearfix:after
+{
+	content: "";
+	display: table;
+}
+
+.clearfix:after
+{
+	clear: both;
+}
+
+/* Hidden header */
+.hiddenheader
+{
+	position: absolute;
+	left: -2000em;
+}
+
+header#topheader
+{
+	background: #ff3019;
+	background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3019), color-stop(100%,#cf0404));
+	background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+	background: -o-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+	background: -ms-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+	background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 );
+	box-shadow: 0px 0px 5px black;
+	max-width: 100%;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+}
+
+header#topheader #topnavigation ul li
+{
+	float: left;
+	font-size: 1.1em;
+	margin-top: 11px;
+	margin-right: 20px;
+}
+
+header#topheader #usersection
+{
+	float: right;
+}
+
+header#topheader #usersection .userbutton
+{
+	background: #fff;
+	border: none;
+	border-radius: 5px;
+	height: 30px;
+	margin: 5px 0px;
+	margin-left: 10px;
+	font-size: 1em;
+	font-family: inherit;
+}
+
+header#topheader #usersection .userbutton:hover
+{
+	
+}
+
+#loginwindow
+{
+	position: absolute;
+	background: #fff;
+	border: 1px solid grey;
+	border-radius: 5px;
+	right: 0;
+	width: 300px;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 5px;
+	line-height: 1.5em;
+	font-size: 0.9em;
+}
+
+#loginwindow a
+{
+	color: #ff3019;
+}
+
+#loginwindow .logininputs
+{
+	width: 96%;
+	height: 20px;
+	margin: 5px 0;
+	padding: 2px 3px;
+	font-size: 1em;
+}
+
+.submitbutton
+{
+	background: #ff3019;
+	background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3019), color-stop(100%,#cf0404));
+	background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+	background: -o-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+	background: -ms-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+	background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 );
+	border: none;
+	border-radius: 5px;
+	width: 100px;
+	height: 30px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font-family: inherit;
+	font-size: 1em;
+	color: #fff;
+}
+
+article#index h1
+{
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
+article#createuser
+{
+	border: 1px solid #C0C0C0;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px maroon;
+	background: #fff;
+	width: 410px;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 15px;
+}
+
+p
+{
+	line-height: 1.5em;
+	font-size: 0.9em;
+	margin-bottom: 10px;
+}
+
+article#createuser ul li
+{
+	color: maroon;
+	list-style: square;
+	font-size: 0.9em;
+	margin-left: 15px;
+	line-height: 1.5em;
+}
+
+article#createuser h2
+{
+	font-size: 1.7em;
+	margin: 10px 0px;
+}
+
+article#createuser .userinput
+{
+	width: 405px;
+	height: 25px;
+	font-size: 1em;
+	margin: 5px 0px;
+}
+
+article#list
+{
+	background: #fff;
+	padding: 20px;
+	width: 800px;
+	height: 1200px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border: 1px solid #C0C0C0;
+}
